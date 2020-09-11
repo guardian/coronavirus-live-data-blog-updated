@@ -1,0 +1,38 @@
+
+
+<div class="row buttons">
+	<div class="btn btn-selected world" on-click="world">World</div>
+	<div class="btn us" on-click="us">US</div>
+	<div class="btn uk" on-click="uk">UK</div>
+	<div class="btn aus" on-click="aus">Aus</div>
+</div>
+
+<div class="headline-container">
+	<h3>Coronavirus latest totals</h3>
+</div>	
+
+<div class="row bigNumbers two">
+	<div id="cases" class="numWrapper">
+		<p style="color: rgb(199, 0, 0);">{{label}}</p>
+		<span style="color: rgb(199, 0, 0);">{{location.confirmed}}</span>
+	</div>
+
+	<div id="deaths" class="numWrapper">
+		<p>Deaths</p>
+		<span>{{location.deaths}}</span>
+	</div>
+
+</div>
+
+<div class="row casesOverTime">
+
+	<div class="headline-container">
+		<h3>Confirmed cases per day</h3>
+	</div>	
+	<div class='subTitle' id="subTitle"></div>
+	<div id="barChart" class="chartSans"></div>	
+</div>	
+
+<div class="row notes">
+Sources: cumulative and daily figures are from <a href="https://github.com/CSSEGISandData/COVID-19">Johns Hopkins University</a>. For Australia, more up-to-date figures from state and territory health departments are used. Values can be negative due to revisions in case statuses, and negative values have been set to zero. {{#if location.name == "Australia"}}*Active cases is the total number of cases with recovered cases and deaths subtracted. Most recent day may be incomplete data. {{/if}} Australian data last updated {{ausManualTimestamp}}, Johns Hopkins University data last updated {{autoTimestamp}}.
+</div>	

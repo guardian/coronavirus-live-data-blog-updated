@@ -1,0 +1,140 @@
+{
+"sheets": {
+"latest totals": [
+{
+"State or territory": "NSW",
+"Confirmed cases (cumulative)": "65",
+"Deaths": "",
+"Tests conducted": "",
+"Last updated": "",
+"Source": ""
+},
+{
+"State or territory": "Victoria",
+"Confirmed cases (cumulative)": "",
+"Deaths": "",
+"Tests conducted": "",
+"Last updated": "",
+"Source": ""
+},
+{
+"State or territory": "Queensland",
+"Confirmed cases (cumulative)": "",
+"Deaths": "",
+"Tests conducted": "",
+"Last updated": "",
+"Source": ""
+},
+{
+"State or territory": "South Australia",
+"Confirmed cases (cumulative)": "",
+"Deaths": "",
+"Tests conducted": "",
+"Last updated": "",
+"Source": ""
+},
+{
+"State or territory": "ACT",
+"Confirmed cases (cumulative)": "",
+"Deaths": "",
+"Tests conducted": "",
+"Last updated": "",
+"Source": ""
+},
+{
+"State or territory": "Northern Territory",
+"Confirmed cases (cumulative)": "",
+"Deaths": "",
+"Tests conducted": "",
+"Last updated": "",
+"Source": ""
+},
+{
+"State or territory": "Tasmania",
+"Confirmed cases (cumulative)": "",
+"Deaths": "",
+"Tests conducted": "",
+"Last updated": "",
+"Source": ""
+},
+{
+"State or territory": "Western Australia",
+"Confirmed cases (cumulative)": "",
+"Deaths": "",
+"Tests conducted": "",
+"Last updated": "",
+"Source": ""
+},
+{
+"State or territory": "National",
+"Confirmed cases (cumulative)": "197",
+"Deaths": "3",
+"Tests conducted": "",
+"Last updated": "",
+"Source": "health.gov.au"
+}
+],
+"updates": [
+{
+"State": "NSW",
+"Date": "2020-03-11",
+"Time": "13:42",
+"Cumulative case count": "65",
+"Deaths": "",
+"Tests conducted": "10,221",
+"Update Source": "NSW Health",
+"Under 60": "3",
+"Over 60": "1",
+"Community or unknown": "1",
+"Travel-related": "3"
+},
+{
+"State": "WA",
+"Date": "2020-03-13",
+"Time": "12:53",
+"Cumulative case count": "14",
+"Deaths": "",
+"Tests conducted": "",
+"Update Source": "AAP",
+"Under 60": "",
+"Over 60": "",
+"Community or unknown": "",
+"Travel-related": ""
+}
+],
+"data validation": [
+{
+"States": "NSW",
+"Sources": ""
+},
+{
+"States": "Victoria",
+"Sources": ""
+},
+{
+"States": "Queensland",
+"Sources": ""
+},
+{
+"States": "WA",
+"Sources": ""
+},
+{
+"States": "South Australia",
+"Sources": ""
+},
+{
+"States": "ACT",
+"Sources": ""
+},
+{
+"States": "Tasmania",
+"Sources": ""
+},
+{
+"States": "Northern Territory",
+"Sources": ""
+}
+]
+}
+}
